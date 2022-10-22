@@ -1,0 +1,95 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(image.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.navbar{
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 140px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #5f5f5f;
+    font-size: 15px;
+
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+
+:left-col{
+    margin-left: 6%;
+
+}
+
+.left-col h1{
+    font-size: 90px;
+    color: #fff;
+    line-height: 110px;
+    float: left;
+}
+
+.right-col{
+    float: right;
+    margin-right: 6%;
+    margin-top: 110px;
+    display: flex;
+    align-items: center;
+}
+
+.right-col p{
+    font-size: 18px;
+    color: #5f5f5f;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+#icon{
+    width: 80px;
+    cursor: pointer;
+    border-radius: 80px;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    color: #666;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 60px;
+}
+
+html, body{height: 100%}body{background-color: #4052e4;display: grid;place-items: center}.card{padding: 0px 15px;border-radius: 20px}.c1{background-color: #fff2f1;border-radius: 20px}a{margin: 0px;font-size: 13px;border-radius: 7px;text-decoration: none;color: black}a:hover{color: #e0726c;background-color: #fff2f1}.nav-link{padding: 1rem 1.4rem;margin: 0rem 0.7rem}.ac{font-weight: bold;color: #e0726c;font-size: 12px}input, button{width: 96%;background-color: #fff2f1;border-radius: 8px;padding: 8px 17px;font-size:13px;border: 1px solid #f5f0ef;color: #dccece}input:{text-decoration: none}.bt{background-color: #ff4133;border: 1px solid rgb(300, 200, 200)}form{margin-top: 70px}form >*{margin: 10px 0px}#forgot{margin: 0px -60px}#register{text-align: center}img{background-color: antiquewhite}.wlcm{font-size: 30px}.sp1{font-size: 5px}.sp1 >span{background-color: #f0c3be}
